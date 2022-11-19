@@ -1,12 +1,14 @@
 export type newClient = {
     id: number
-    name: string
-    cpf: string
-    bornDate: string
-    balance?: accountBalance
-}
+    name: string,
+    cpf: string,
+    bornDate: string,
+    balance: number,
+    extract: Transactions[]
+};
 
-export type accountBalance = {
-    totalBalance: number
-    debts: number[]
+export type Transactions = {
+    value: number,
+    date: string,
+    description: string
 }
