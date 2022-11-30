@@ -1,2 +1,10 @@
 # Projeto em grupo - LabeBank
-## Atenção! Personalize seu readme!
+## Alunos:
+Huan Silva Lima
+
+
+## API para sistama bancário
+
+### O que funciona
+- Cadastro de novos usuarios
+- Pagamento de contas
